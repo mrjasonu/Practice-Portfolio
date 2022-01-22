@@ -4,7 +4,6 @@ html {
 
 main {
     display: block;
-    /* width: 1000px; */
     max-width: 1000px;
     min-width: 500px;
     height: 100%;
@@ -53,11 +52,10 @@ nav li a {
 
 #about-me {
     display: grid;
-    /* width: 1000px; */
     max-width: 1000px;
     min-width: 600px;
     height: 400px;
-    grid-template-columns: minmax(450px, 650px) minmax(300px, 350px); /* !! */
+    grid-template-columns: minmax(450px, 650px) minmax(300px, 350px);
     grid-template-rows: 50px 300px;
     margin-bottom: 30px;
 }
@@ -117,6 +115,8 @@ nav li a {
 }
 
 @media only screen and (max-width: 790px) {
+
+
 
     .my-image {
         display: none;
